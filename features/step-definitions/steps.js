@@ -5,7 +5,6 @@ const mainPage = require('../pageobjects/MainPage');
 
 Given('User is located on the main page of saucedemo website', async () => {
     await mainPage.open()
-    
 });
 
 When('User clicks "login-button" button', async () => {
